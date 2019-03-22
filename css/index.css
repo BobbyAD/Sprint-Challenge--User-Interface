@@ -85,19 +85,18 @@ header {
     font-family: Roboto, sand-serif;
 }
 
-a {
-    transiton: text-shadow, color;
-    transition-duration: .5s;
-}
-
-a:hover {
-    text-shadow: 0 0 3px #eeeeee, 0 0 5px #72aee5;
-    color: white;
-}
-
 .top-nav a {
     text-decoration: none;
     color: black;
+}
+
+a {
+    transition-duration: 300ms;
+}
+
+a:hover {
+    color: #419ed3;
+    letter-spacing: 1px;
 }
 
 .top-content {
