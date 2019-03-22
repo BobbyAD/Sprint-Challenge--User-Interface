@@ -373,5 +373,15 @@ footer nav a {
     .top-content .text-container.about {
         width: 80%;
     }
+    
+    .about-items {
+        max-width: 370px;
+    }
+
+    .about-items img {
+        width: 100%;
+        max-width: 370px;
+        align-self: center;
+    }
 
   }
