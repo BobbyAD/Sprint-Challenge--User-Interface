@@ -85,6 +85,16 @@ header {
     font-family: Roboto, sand-serif;
 }
 
+a {
+    transiton: text-shadow, color;
+    transition-duration: .5s;
+}
+
+a:hover {
+    text-shadow: 0 0 3px #eeeeee, 0 0 5px #72aee5;
+    color: white;
+}
+
 .top-nav a {
     text-decoration: none;
     color: black;
@@ -221,6 +231,55 @@ header {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 25px 0;
+    padding-bottom: 45px;
+    border-bottom: 1px dashed black;
+}
+
+.top-forms {
+    display: flex;
+    align-content: flex-end;
+}
+
+.email-input {
+    display: flex;
+    align-items: flex-end;
+    width: 50%;
+}
+
+.email-input input {
+    margin: 20px;
+    width: 100%;
+}
+
+.contact-reason {
+    display: flex;
+    align-items: flex-end;
+}
+
+.contact-reason select {
+    margin: 20px;
+}
+
+.message-div {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
 }
 
 footer {
