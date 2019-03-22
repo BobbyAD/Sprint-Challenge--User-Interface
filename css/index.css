@@ -159,6 +159,12 @@ a:hover {
     width: 33%;
     font-family: Roboto, sans-serif;
     font-size: 16px;
+    transition-duration: 300ms;
+}
+
+.learn-more:hover {
+    background: black;
+    color: white;
 }
 
 .middle-content .boxes {
@@ -311,12 +317,17 @@ footer nav a {
 
     .top-nav {
         flex-wrap: wrap;
+        justify-content: space-evenly;
     }
 
     .top-nav a {
-        margin: 0 3px;
+        justify-self: flex-end;
     }
 
+    a {
+        margin: 0 3px;
+    }
+    
     .jumbo {
         height: 153px;
         width: 100%;
